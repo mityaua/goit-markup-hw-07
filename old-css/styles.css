@@ -6,7 +6,7 @@
 /* svg цвет */
 /* акцент #2196F3 */
 
-:root {
+/* :root {
   --primary-text-color: #757575;
   --second-text-color: #212121;
   --accent-color: #2196f3;
@@ -16,9 +16,9 @@
   --svg-color: #afb1b8;
 
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   background-color: var(--primary-bg-color);
 
   color: var(--primary-text-color);
@@ -27,11 +27,11 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
-}
+} */
 
 /* Утилиты */
 
-.list {
+/* .list {
   padding: 0;
   margin: 0;
 
@@ -61,11 +61,11 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* Header */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -77,11 +77,11 @@ img {
 .navbar {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Логотип в хедере */
 
-.logo {
+/* .logo {
   margin-right: 93px;
 
   color: var(--second-text-color);
@@ -95,11 +95,11 @@ img {
 
 .logo span {
   color: var(--accent-color);
-}
+} */
 
 /* Меню в хедере */
 
-.site-nav {
+/* .site-nav {
   display: flex;
 }
 
@@ -127,16 +127,16 @@ img {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus,
+.site-nav .link:focus, */
 .nav-contacts .link:hover,
 .nav-contacts .link:focus,
-.site-nav .link.current,
+/* .site-nav .link.current, */
 .footer-adress .link:hover,
 .footer-adress .link:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current::after {
+/* .site-nav .link.current::after {
   content: "";
 
   position: absolute;
@@ -150,7 +150,7 @@ img {
   border-radius: 2px;
 
   background-color: var(--accent-color);
-}
+} */
 
 /* Контакты в хедере */
 
