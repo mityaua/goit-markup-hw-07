@@ -1079,14 +1079,13 @@ img {
 /* Политика для формы */
 
 .policy-block {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   display: block;
 
   margin-bottom: 30px;
 
   text-align: center;
+
+  cursor: pointer;
 }
 
 .checkbox:checked + .policy-icon::before {
