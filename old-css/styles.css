@@ -131,10 +131,10 @@ img {
 /* .nav-contacts .link:hover,
 .nav-contacts .link:focus, */
 /* .site-nav .link.current, */
-.footer-adress .link:hover,
+/* .footer-adress .link:hover,
 .footer-adress .link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* .site-nav .link.current::after {
   content: "";
@@ -470,14 +470,14 @@ img {
 } */
 
 /* .social-icon, */
-.network-icon {
+/* .network-icon {
   width: 20px;
   height: 20px;
 
   fill: var(--svg-color);
 
   transition: fill 250ms var(--timing-function);
-}
+} */
 
 /* .social-link:hover .social-icon,
 .social-link:focus .social-icon {
@@ -703,7 +703,7 @@ img {
 
 /* Footer */
 
-.footer {
+/* .footer {
   padding: 60px 60px;
 
   background-color: var(--second-bg-color);
@@ -715,15 +715,15 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-}
+} */
 
-.address {
+/* .address {
   margin-right: 70px;
-}
+} */
 
 /* Лого в футере */
 
-.footer-logo {
+/* .footer-logo {
   display: inline-block;
 
   margin-bottom: 20px;
@@ -738,11 +738,11 @@ img {
 
 .footer-logo span {
   color: var(--accent-color);
-}
+} */
 
 /* Контакты в футере */
 
-.footer-adress {
+/* .footer-adress {
   display: flex;
   flex-direction: column;
 
@@ -766,11 +766,11 @@ img {
 .footer-map {
   margin-top: 0;
   margin-bottom: 9px;
-}
+} */
 
 /* Соц сети в футере */
 
-.network-block {
+/* .network-block {
   margin-right: 93px;
 }
 
@@ -815,11 +815,11 @@ img {
 .network-link:hover .network-icon,
 .network-link:focus .network-icon {
   fill: var(--additional-background-color);
-}
+} */
 
 /* Форма подписки в футере */
 
-.subscribe-field {
+/* .subscribe-field {
   display: flex;
   align-items: center;
 }
@@ -845,17 +845,17 @@ img {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* ПОД ВОПРОСОМ! */
-.subscribe-field input:focus {
+/* .subscribe-field input:focus {
   outline: transparent;
   border: 1px solid currentColor;
-}
+} */
 
 /* Кнопка подписки */
 
-.subscribe-btn {
+/* .subscribe-btn {
   display: flex;
   align-items: center;
 
@@ -890,7 +890,7 @@ img {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-}
+} */
 
 /* Бекдроп для модального окна */
 

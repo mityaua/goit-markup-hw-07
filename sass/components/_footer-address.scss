@@ -1,0 +1,57 @@
+// Блок с адресом в футере
+
+.address-block {
+  margin-right: 70px;
+}
+
+// Лого в футере
+
+.footer-logo {
+  display: inline-block;
+
+  margin-bottom: 20px;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: $primary-bg-color;
+
+  & span {
+    color: $accent-color;
+  }
+}
+
+/* Контакты в футере */
+
+.footer-adress {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+}
+
+.footer-adress-map {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.footer-adress-link {
+  margin-bottom: 9px;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+
+  transition: color 250ms $timing-function;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

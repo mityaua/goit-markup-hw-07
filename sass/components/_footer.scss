@@ -1,0 +1,15 @@
+// Футер
+
+.footer {
+  padding: 60px 60px;
+
+  background-color: $second-bg-color;
+
+  color: $primary-bg-color;
+}
+
+.footer-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
