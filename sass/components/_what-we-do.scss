@@ -1,6 +1,22 @@
+// Секция "Чем мы занимаемся"
+
 .photos {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+// Тайтл секции
+
+.photos-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: $second-text-color;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .photos-list {
@@ -19,9 +35,13 @@
   }
 }
 
+// Обёртка для картинки
+
 .photos-thumb {
   position: relative;
 }
+
+// Текст поверх картинки
 
 .photos-text {
   position: absolute;
@@ -45,16 +65,4 @@
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-}
-
-.photos-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-
-  color: $second-text-color;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
 }

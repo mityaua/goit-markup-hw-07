@@ -35,6 +35,8 @@
     color: $accent-color;
   }
 
+  // Подчеркивает текущий пункт меню
+
   &.current::after {
     content: "";
 

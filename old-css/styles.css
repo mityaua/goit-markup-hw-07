@@ -379,7 +379,7 @@ img {
 /* Тайтлы Чем мы занимаемся + Наша команда */
 
 /* .photos-title, */
-.team-title {
+/* .team-title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -389,11 +389,11 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-}
+} */
 
 /* Секция с фотографиями команды */
 
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -462,14 +462,14 @@ img {
   border-radius: 50%;
 
   transition: background-color 250ms var(--timing-function);
-}
+} */
 
-.social-link:hover,
+/* .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
-}
+} */
 
-.social-icon,
+/* .social-icon, */
 .network-icon {
   width: 20px;
   height: 20px;
@@ -479,14 +479,14 @@ img {
   transition: fill 250ms var(--timing-function);
 }
 
-.social-link:hover .social-icon,
+/* .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   fill: var(--primary-bg-color);
-}
+} */
 
 /* Секция Постоянные клиенты */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -547,7 +547,7 @@ img {
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Страница портфолио */
 

@@ -16,6 +16,8 @@
   }
 }
 
+// Обертка для иконки с фоном
+
 .features-img {
   margin-bottom: 30px;
   padding: 20px 100px;
@@ -25,10 +27,14 @@
   text-align: center;
 }
 
+// Иконка элемента
+
 .features-icon {
   width: 70px;
   height: 70px;
 }
+
+// Тайтл
 
 .features-title {
   margin-top: 0;
@@ -41,6 +47,8 @@
   line-height: 1.14;
   text-transform: uppercase;
 }
+
+// Текст
 
 .features-text {
   margin-top: 0;

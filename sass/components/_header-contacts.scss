@@ -10,6 +10,8 @@
   }
 }
 
+// Иконки для контактов
+
 .header-contacts-icons {
   display: flex;
   align-items: center;
@@ -31,6 +33,8 @@
 
   fill: currentColor;
 }
+
+// Ссылки в контактах
 
 .header-contacts-link {
   color: $primary-text-color;
