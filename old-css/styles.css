@@ -128,8 +128,8 @@ img {
 
 .site-nav .link:hover,
 .site-nav .link:focus, */
-.nav-contacts .link:hover,
-.nav-contacts .link:focus,
+/* .nav-contacts .link:hover,
+.nav-contacts .link:focus, */
 /* .site-nav .link.current, */
 .footer-adress .link:hover,
 .footer-adress .link:focus {
@@ -154,7 +154,7 @@ img {
 
 /* Контакты в хедере */
 
-.nav-contacts {
+/* .nav-contacts {
   display: flex;
 
   margin-left: auto;
@@ -162,9 +162,9 @@ img {
 
 .nav-contacts .item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
-.header-mail {
+/* .header-mail {
   width: 16px;
   height: 12px;
 
@@ -179,9 +179,9 @@ img {
   height: 16px;
 
   fill: currentColor;
-}
+} */
 
-.nav-contacts .link {
+/* .nav-contacts .link {
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -196,7 +196,7 @@ img {
 .contacts-icons {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Секция Hero */
 

@@ -29,6 +29,10 @@
     color: $accent-color;
   }
 
+  &.current {
+    color: $accent-color;
+  }
+
   &.current::after {
     content: "";
 
@@ -43,8 +47,5 @@
     border-radius: 2px;
 
     background-color: $accent-color;
-  }
-  &.current {
-    color: $accent-color;
   }
 }
