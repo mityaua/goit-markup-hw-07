@@ -1,12 +1,14 @@
-.site-nav {
+// Меню в хедере
+
+.menu {
   display: flex;
 
-  & .item:not(:last-child) {
+  &-item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.site-nav .link {
+.menu-link {
   position: relative;
 
   display: block;

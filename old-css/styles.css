@@ -200,7 +200,7 @@ img {
 
 /* Секция Hero */
 
-.hero {
+/* .hero {
   display: flex;
   align-items: center;
 
@@ -240,11 +240,11 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+} */
 
 /* Hero button */
 
-.btn-order {
+/* .btn-order {
   display: inline-block;
 
   min-width: 200px;
@@ -274,11 +274,11 @@ img {
 .btn-order:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transform: scale(0.93);
-}
+} */
 
 /* Преимущества */
 
-.features {
+/* .features {
   padding-top: 94px;
 }
 
@@ -323,11 +323,11 @@ img {
 .features-text {
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
 /* Секция Чем мы занимаемся  */
 
-.photos {
+/* .photos {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -374,11 +374,11 @@ img {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-}
+} */
 
 /* Тайтлы Чем мы занимаемся + Наша команда */
 
-.photos-title,
+/* .photos-title, */
 .team-title {
   margin-top: 0;
   margin-bottom: 50px;

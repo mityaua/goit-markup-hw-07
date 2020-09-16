@@ -1,0 +1,48 @@
+// Секция "Преимущества"
+
+.features {
+  padding-top: 94px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-item {
+  width: calc((100% - 90px) / 4);
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.features-img {
+  margin-bottom: 30px;
+  padding: 20px 100px;
+
+  background-color: $additional-background-color;
+
+  text-align: center;
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: $second-text-color;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
