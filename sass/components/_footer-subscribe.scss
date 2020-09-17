@@ -70,9 +70,13 @@
 
   cursor: pointer;
 
-  &:hover,
-  &:focus {
+  &:hover:active,
+  &:focus:active {
     transform: scale(0.93);
+  }
+
+  &:disabled {
+    background-color: gray;
   }
 }
 

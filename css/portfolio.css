@@ -681,9 +681,13 @@ img {
   cursor: pointer;
 }
 
-.subscribe-btn:hover, .subscribe-btn:focus {
+.subscribe-btn:hover:active, .subscribe-btn:focus:active {
   -webkit-transform: scale(0.93);
           transform: scale(0.93);
+}
+
+.subscribe-btn:disabled {
+  background-color: gray;
 }
 
 .subscribe-icon {
