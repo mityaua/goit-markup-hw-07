@@ -681,7 +681,7 @@ img {
   cursor: pointer;
 }
 
-.subscribe-btn:hover:active, .subscribe-btn:focus:active {
+.subscribe-btn:hover:enabled, .subscribe-btn:focus:enabled {
   -webkit-transform: scale(0.93);
           transform: scale(0.93);
 }

@@ -70,8 +70,8 @@
 
   cursor: pointer;
 
-  &:hover:focus,
-  &:focus:active {
+  &:hover:enabled,
+  &:focus:enabled {
     transform: scale(0.93);
   }
 
