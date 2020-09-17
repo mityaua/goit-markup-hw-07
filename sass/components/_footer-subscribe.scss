@@ -27,9 +27,19 @@
     color: rgba(255, 255, 255, 0.6);
   }
 
-  input:focus {
+  & input:focus {
     outline: transparent;
     border: 1px solid currentColor;
+  }
+
+  & input:not(:placeholder-shown):focus:valid {
+    color: green;
+    border-color: green;
+  }
+
+  & input:not(:placeholder-shown):focus:invalid {
+    color: tomato;
+    border-color: tomato;
   }
 }
 

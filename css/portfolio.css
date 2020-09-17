@@ -642,6 +642,16 @@ img {
   border: 1px solid currentColor;
 }
 
+.subscribe-field input:not(:placeholder-shown):focus:valid {
+  color: green;
+  border-color: green;
+}
+
+.subscribe-field input:not(:placeholder-shown):focus:invalid {
+  color: tomato;
+  border-color: tomato;
+}
+
 .subscribe-btn {
   display: -webkit-box;
   display: -ms-flexbox;
