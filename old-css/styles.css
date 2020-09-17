@@ -551,13 +551,13 @@ img {
 
 /* Страница портфолио */
 
-.portfolio-section {
+/* .portfolio-section {
   padding: 94px 0;
-}
+} */
 
 /* Кнопки-фильтры */
 
-.filters {
+/* .filters {
   display: flex;
   justify-content: center;
 
@@ -599,11 +599,11 @@ img {
   color: var(--primary-bg-color);
 
   cursor: pointer;
-}
+} */
 
 /* Сетка портфолио */
 
-.portfolio {
+/* .portfolio {
   display: flex;
   flex-wrap: wrap;
 }
@@ -632,11 +632,11 @@ img {
 
 .portfolio-link {
   text-decoration: none;
-}
+} */
 
 /* Оверлей портфолио */
 
-.portfolio-thumb {
+/* .portfolio-thumb {
   position: relative;
 
   overflow: hidden;
@@ -699,7 +699,7 @@ img {
 
   font-size: 16px;
   line-height: 1.87;
-}
+} */
 
 /* Footer */
 
@@ -894,7 +894,7 @@ img {
 
 /* Бекдроп для модального окна */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -912,11 +912,11 @@ img {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-}
+} */
 
 /* Модальное окно */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -970,18 +970,18 @@ img {
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Форма */
 
-.callback-form {
+/* .callback-form {
   width: 100%;
   padding: 40px;
-}
+} */
 
 /* Название формы */
 
-.callback-title {
+/* .callback-title {
   display: inline-block;
 
   margin-bottom: 12px;
@@ -1022,10 +1022,10 @@ img {
   transition: all 250ms var(--timing-function);
 
   cursor: pointer;
-}
+} */
 
 /* ПОД ВОПРОСОМ! */
-.callback-input:focus,
+/* .callback-input:focus,
 .callback-commit textarea:focus {
   outline: transparent;
   border: 1px solid var(--accent-color);
@@ -1046,11 +1046,11 @@ img {
 
 .callback-area:focus-within .callback-icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Комментарий для формы */
 
-.callback-commit {
+/* .callback-commit {
   display: flex;
   flex-direction: column;
 
@@ -1074,11 +1074,11 @@ img {
   resize: none;
 
   cursor: pointer;
-}
+} */
 
 /* Политика для формы */
 
-.policy-block {
+/* .policy-block {
   display: block;
 
   margin-bottom: 30px;
@@ -1116,11 +1116,11 @@ img {
 
 .policy-link {
   color: var(--accent-color);
-}
+} */
 
 /* Кнопка отправки формы */
 
-.btn-block {
+/* .btn-block {
   text-align: center;
 }
 
@@ -1150,4 +1150,4 @@ img {
 .callback-btn:hover,
 .callback-btn:focus {
   transform: scale(0.93);
-}
+} */
