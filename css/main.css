@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+  src: local("Raleway"), url("../fonts/Raleway-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  src: local("Roboto"), url("../fonts/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  src: local("Roboto"), url("../fonts/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: fallback;
@@ -25,7 +25,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  src: local("Roboto"), url("../fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: fallback;
@@ -33,7 +33,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+  src: local("Roboto"), url("../fonts/Roboto-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: fallback;
