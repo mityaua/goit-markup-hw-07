@@ -5,25 +5,11 @@
   padding-bottom: 94px;
 }
 
-// Тайтл секции
-
-.photos-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-
-  color: $second-text-color;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
-.photos-list {
+.photos__list {
   display: flex;
 }
 
-.photos-item {
+.photos__item {
   background-color: $primary-text-color;
 
   & {
@@ -37,13 +23,13 @@
 
 // Обёртка для картинки
 
-.photos-thumb {
+.photos__thumb {
   position: relative;
 }
 
 // Текст поверх картинки
 
-.photos-text {
+.photos__text {
   position: absolute;
   bottom: 0;
   left: 50%;

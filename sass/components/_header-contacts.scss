@@ -1,42 +1,18 @@
 // Контакты в хедере
 
-.header-contacts {
+.contacts {
   display: flex;
 
   margin-left: auto;
 
-  &-item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-// Иконки для контактов
-
-.header-contacts-icon {
-  display: flex;
-  align-items: center;
-}
-
-.header-contacts-mail {
-  width: 16px;
-  height: 12px;
-
-  margin-right: 10px;
-
-  fill: currentColor;
-}
-
-.header-contacts-phone {
-  margin-right: 10px;
-  width: 10px;
-  height: 16px;
-
-  fill: currentColor;
-}
-
 // Ссылки в контактах
 
-.header-contacts-link {
+.contacts__link {
   color: $primary-text-color;
 
   font-weight: 500;
@@ -51,4 +27,28 @@
   &:focus {
     color: $accent-color;
   }
+}
+
+// Иконки для контактов
+
+.contacts__icon {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__mail {
+  width: 16px;
+  height: 12px;
+
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
+.contacts__phone {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+
+  fill: currentColor;
 }

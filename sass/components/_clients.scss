@@ -7,24 +7,24 @@
 
 // Тайтл секции
 
-.clients-title {
-  margin-top: 0;
-  margin-bottom: 50px;
+// .clients-title {
+//   margin-top: 0;
+//   margin-bottom: 50px;
 
-  color: $second-text-color;
+//   color: $second-text-color;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.17;
+//   text-align: center;
+// }
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
 }
 
-.clients-item {
+.clients__item {
   width: calc((100% - 30px * 5) / 6);
   height: 90px;
   border: 1px solid $svg-color;
@@ -42,7 +42,7 @@
   }
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@
   height: 90px;
 }
 
-.clients-icon {
+.clients__icon {
   width: 44px;
   height: 49px;
 
@@ -59,8 +59,8 @@
 
   transition: fill 250ms $timing-function;
 
-  .clients-link:hover &,
-  .clients-link:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: $accent-color;
   }
 }

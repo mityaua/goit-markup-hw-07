@@ -21,7 +21,7 @@
   background-position: center;
 }
 
-.hero-content {
+.hero__content {
   max-width: 696px;
   margin-right: auto;
   margin-left: auto;
@@ -31,7 +31,7 @@
 
 // Тайтл Героя
 
-.hero-title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -46,8 +46,8 @@
 
 // Кнопка "Заказать услугу"
 
-.hero-btn {
-  display: inline-block;
+.hero__btn {
+  // display: inline-block;
 
   min-width: 200px;
   height: 50px;

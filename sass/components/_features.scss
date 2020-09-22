@@ -4,11 +4,11 @@
   padding-top: 94px;
 }
 
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item {
+.features__item {
   width: calc((100% - 90px) / 4);
 
   &:not(:last-child) {
@@ -18,7 +18,7 @@
 
 // Обертка для иконки с фоном
 
-.features-img {
+.features__img {
   margin-bottom: 30px;
   padding: 20px 100px;
 
@@ -29,14 +29,14 @@
 
 // Иконка элемента
 
-.features-icon {
+.features__icon {
   width: 70px;
   height: 70px;
 }
 
 // Тайтл
 
-.features-title {
+.features__title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -50,7 +50,7 @@
 
 // Текст
 
-.features-text {
+.features__text {
   margin-top: 0;
   margin-bottom: 0;
 }
