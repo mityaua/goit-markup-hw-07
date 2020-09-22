@@ -9,37 +9,6 @@
       name="description"
       content="Портфолио со всеми работами компании Web Studio"
     />
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://mityaua.github.io/goit-markup-hw-07/portfolio.html"
-    />
-    <meta property="og:title" content="Портфолио | Web Studio" />
-    <meta
-      property="og:description"
-      content="Портфолио со всеми работами компании Web Studio"
-    />
-    <meta
-      property="og:image"
-      content="https://mityaua.github.io/goit-markup-hw-07/images/hero-img.jpg"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://mityaua.github.io/goit-markup-hw-07/portfolio.html"
-    />
-    <meta property="twitter:title" content="Портфолио | Web Studio" />
-    <meta
-      property="twitter:description"
-      content="Портфолио со всеми работами компании Web Studio"
-    />
-    <meta
-      property="twitter:image"
-      content="https://mityaua.github.io/goit-markup-hw-07/images/hero-img.jpg"
-    />
 
     <link rel="stylesheet" href="./css/portfolio.min.css" />
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
@@ -49,28 +18,30 @@
       <div class="container main-nav">
         <nav class="navbar">
           <!-- Логототип в хедере -->
-          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+          <a href="./index.html" class="header__logo"><span>Web</span>Studio</a>
 
           <!-- Меню в хедере -->
           <ul class="menu list">
-            <li class="menu-item">
-              <a href="./index.html" class="menu-link">Студия</a>
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Студия</a>
             </li>
-            <li class="menu-item">
-              <a href="./portfolio.html" class="menu-link current">Портфолио</a>
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link menu__link--current"
+                >Портфолио</a
+              >
             </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">Контакты</a>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <!-- Контакты в хедере -->
-        <ul class="header-contacts list">
-          <li class="header-contacts-item">
-            <a href="mailto:info@devstudio.com" class="header-contacts-link">
-              <div class="header-contacts-icons">
-                <svg class="header-contacts-mail" width="16" height="12">
+        <ul class="contacts list">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <div class="contacts__icon">
+                <svg class="contacts__mail" width="16" height="12">
                   <use href="./images/sprite.svg#icon-head-mail"></use>
                 </svg>
 
@@ -78,10 +49,10 @@
               </div></a
             >
           </li>
-          <li class="header-contacts-item">
-            <a href="tel:+380961111111" class="header-contacts-link">
-              <div class="header-contacts-icons">
-                <svg class="header-contacts-phone" width="10" height="16">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link">
+              <div class="contacts__icon">
+                <svg class="contacts__phone" width="10" height="16">
                   <use href="./images/sprite.svg#icon-head-phone"></use>
                 </svg>
 

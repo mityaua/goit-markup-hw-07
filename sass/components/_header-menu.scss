@@ -31,15 +31,13 @@
     color: $accent-color;
   }
 
-  // Выделяет текущий пункт меню
+  // Выделяет и подчеркивает текущий пункт меню
 
-  &.current {
+  &--current {
     color: $accent-color;
   }
 
-  // Подчеркивает текущий пункт меню
-
-  &.current::after {
+  &--current::after {
     content: "";
 
     position: absolute;

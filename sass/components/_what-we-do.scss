@@ -10,11 +10,9 @@
 }
 
 .photos__item {
-  background-color: $primary-text-color;
+  width: calc((100% - 60px) / 3);
 
-  & {
-    width: calc((100% - 60px) / 3);
-  }
+  background-color: $primary-text-color;
 
   &:not(:last-child) {
     margin-right: 30px;

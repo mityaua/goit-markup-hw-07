@@ -6,7 +6,7 @@
 
 // Лого в футере
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
 
   margin-bottom: 20px;
@@ -25,19 +25,19 @@
 
 /* Контакты в футере */
 
-.footer-adress {
+.adress {
   display: flex;
   flex-direction: column;
 
   font-style: normal;
 }
 
-.footer-adress-map {
+.adress__map {
   margin-top: 0;
   margin-bottom: 9px;
 }
 
-.footer-adress-link {
+.adress__link {
   margin-bottom: 9px;
 
   color: rgba(255, 255, 255, 0.6);

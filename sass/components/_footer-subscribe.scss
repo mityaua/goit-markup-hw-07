@@ -1,6 +1,6 @@
 // Форма подписки в футере
 
-.subscribe-field {
+.subscribe__field {
   display: flex;
   align-items: center;
 
@@ -45,7 +45,7 @@
 
 // Кнопка подписки
 
-.subscribe-btn {
+.subscribe__btn {
   display: flex;
   align-items: center;
 
@@ -80,7 +80,7 @@
   }
 }
 
-.subscribe-icon {
+.subscribe__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
