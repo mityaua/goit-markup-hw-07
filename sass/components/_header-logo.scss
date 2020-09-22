@@ -1,6 +1,6 @@
 // Логотип в хедере
 
-.header__logo {
+.logo {
   margin-right: 93px;
 
   color: $second-text-color;
@@ -11,7 +11,7 @@
   line-height: 1.19;
   text-decoration: none;
 
-  & span {
+  &__text {
     color: $accent-color;
   }
 }

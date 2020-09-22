@@ -2,10 +2,10 @@
 
 .menu {
   display: flex;
+}
 
-  &__item:not(:last-child) {
-    margin-right: 50px;
-  }
+.menu__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu__link {

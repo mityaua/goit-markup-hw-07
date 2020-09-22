@@ -216,7 +216,7 @@ img {
           align-items: center;
 }
 
-.header__logo {
+.logo {
   margin-right: 93px;
   color: #212121;
   font-family: Raleway, sans-serif;
@@ -226,7 +226,7 @@ img {
   text-decoration: none;
 }
 
-.header__logo span {
+.logo__text {
   color: #2196f3;
 }
 
