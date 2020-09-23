@@ -13,11 +13,11 @@
   margin-bottom: 50px;
 }
 
-.filters-item:not(:last-child) {
+.filters__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filters-btn {
+.filters__btn {
   display: inline-block;
 
   min-width: 73px;
@@ -57,7 +57,7 @@
   flex-wrap: wrap;
 }
 
-.portfolio-item {
+.portfolio__item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -79,19 +79,19 @@
   }
 }
 
-.portfolio-link {
+.portfolio__link {
   text-decoration: none;
 }
 
 // Оверлей портфолио
 
-.portfolio-thumb {
+.portfolio__thumb {
   position: relative;
 
   overflow: hidden;
 }
 
-.portfolio-tooltip {
+.portfolio__tooltip {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -113,8 +113,8 @@
 
   opacity: 0;
 
-  .portfolio-link:hover &,
-  .portfolio-link:focus & {
+  .portfolio__link:hover &,
+  .portfolio__link:focus & {
     transform: translateY(0);
 
     opacity: 1;
@@ -123,14 +123,14 @@
 
 // Текст карточки портфолио
 
-.portfolio-content {
+.portfolio__content {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.portfolio-title {
+.portfolio__title {
   margin-top: 0;
   margin-bottom: 4px;
 
@@ -142,7 +142,7 @@
   letter-spacing: 0.06em;
 }
 
-.portfolio-text {
+.portfolio__text {
   margin: 0;
 
   color: $primary-text-color;
