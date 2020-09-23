@@ -76,7 +76,7 @@
   height: 44px;
   border-radius: 50%;
 
-  transition: background-color 250ms $timing-function;
+  transition: background-color $transition-duration $timing-function;
 
   &:hover,
   &:focus {
@@ -92,7 +92,7 @@
 
   fill: $svg-color;
 
-  transition: fill 250ms $timing-function;
+  transition: fill $transition-duration $timing-function;
 
   .social__link:hover &,
   .social__link:focus & {

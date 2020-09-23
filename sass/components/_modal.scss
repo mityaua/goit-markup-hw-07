@@ -10,7 +10,7 @@
 
   background-color: rgba(0, 0, 0, 0.2);
 
-  transition: opacity 250ms $timing-function;
+  transition: opacity $transition-duration $timing-function;
 
   opacity: 1;
 
@@ -37,14 +37,14 @@
 
   transform: translate(-50%, -50%) scale(1);
 
-  transition: transform 250ms $timing-function;
+  transition: transform $transition-duration $timing-function;
 
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0.5);
   }
 }
 
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -64,16 +64,16 @@
   cursor: pointer;
 }
 
-.modal-close-icon {
+.modal__close-icon {
   width: 18px;
   height: 18px;
 
   fill: #000000;
 
-  transition: fill 250ms $timing-function;
+  transition: fill $transition-duration $timing-function;
 
-  .modal-close-btn:hover &,
-  .modal-close-btn:focus & {
+  .modal__close-btn:hover &,
+  .modal__close-btn:focus & {
     fill: $accent-color;
   }
 }
@@ -87,7 +87,7 @@
 
 // Заголовок формы
 
-.callback-title {
+.callback__title {
   display: inline-block;
 
   margin-bottom: 12px;
@@ -102,14 +102,14 @@
 
 // Поля формы
 
-.callback-group {
+.callback__group {
   display: flex;
   flex-direction: column;
 
   margin-bottom: 10px;
 }
 
-.callback-label {
+.callback__label {
   margin-bottom: 4px;
 
   font-size: 12px;
@@ -117,17 +117,17 @@
   letter-spacing: 0.01em;
 }
 
-.callback-area {
+.callback__area {
   position: relative;
 }
 
-.callback-input {
+.callback__input {
   width: 100%;
   padding: 11px 11px 11px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
-  transition: all 250ms $timing-function;
+  transition: all $transition-duration $timing-function;
 
   cursor: pointer;
 
@@ -147,7 +147,7 @@
   }
 }
 
-.callback-icon {
+.callback__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -157,27 +157,29 @@
 
   transform: translateY(-50%);
 
-  transition: fill 250ms $timing-function;
+  transition: fill $transition-duration $timing-function;
 
-  .callback-area:focus-within & {
+  .callback__area:focus-within & {
     fill: $accent-color;
   }
 }
 
 // Комментарий для формы
 
-.callback-commit {
+.callback__commit {
   display: flex;
   flex-direction: column;
 
   margin-bottom: 20px;
 }
 
-.callback-commit textarea {
+.callback__textarea {
   width: 100%;
   padding: 12px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  transition: all $transition-duration $timing-function;
 
   resize: none;
 
@@ -197,6 +199,30 @@
   }
 }
 
+// .callback__commit textarea {
+//   width: 100%;
+//   padding: 12px 16px;
+//   border: 1px solid rgba(33, 33, 33, 0.2);
+//   border-radius: 4px;
+
+//   resize: none;
+
+//   cursor: pointer;
+
+//   &::placeholder {
+//     font-size: 12px;
+//     line-height: 1.16;
+//     letter-spacing: 0.01em;
+
+//     color: rgba(117, 117, 117, 0.5);
+//   }
+
+//   &:focus {
+//     outline: transparent;
+//     border: 1px solid $accent-color;
+//   }
+// }
+
 // Политика для формы
 
 .policy-block {
@@ -209,7 +235,7 @@
   cursor: pointer;
 }
 
-.policy-icon::before {
+.policy__icon::before {
   display: inline-block;
 
   content: "";
@@ -221,10 +247,10 @@
   border-radius: 2px;
   vertical-align: middle;
 
-  transition: all 250ms $timing-function;
+  transition: all $transition-duration $timing-function;
 }
 
-.checkbox:checked + .policy-icon::before {
+.checkbox:checked + .policy__icon::before {
   vertical-align: middle;
 
   border-color: $accent-color;
@@ -235,7 +261,7 @@
   background-origin: border-box;
 }
 
-.policy-link {
+.policy__link {
   color: $accent-color;
 }
 
@@ -245,7 +271,7 @@
   text-align: center;
 }
 
-.callback-btn {
+.callback__btn {
   min-width: 200px;
   height: 50px;
   padding: 10px 55px;
@@ -263,7 +289,7 @@
 
   transform: scale(1);
 
-  transition: transform 250ms $timing-function;
+  transition: transform $transition-duration $timing-function;
 
   cursor: pointer;
 

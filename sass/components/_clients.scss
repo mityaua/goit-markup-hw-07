@@ -5,20 +5,6 @@
   padding-bottom: 94px;
 }
 
-// Тайтл секции
-
-// .clients-title {
-//   margin-top: 0;
-//   margin-bottom: 50px;
-
-//   color: $second-text-color;
-
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 1.17;
-//   text-align: center;
-// }
-
 .clients__list {
   display: flex;
   justify-content: center;
@@ -30,7 +16,7 @@
   border: 1px solid $svg-color;
   border-radius: 4px;
 
-  transition: border-color 250ms $timing-function;
+  transition: border-color $transition-duration $timing-function;
 
   &:not(:last-child) {
     margin-right: 30px;
@@ -57,7 +43,7 @@
 
   fill: $svg-color;
 
-  transition: fill 250ms $timing-function;
+  transition: fill $transition-duration $timing-function;
 
   .clients__link:hover &,
   .clients__link:focus & {

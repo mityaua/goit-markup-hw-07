@@ -36,7 +36,7 @@
 
   background-color: rgba(255, 255, 255, 0.1);
 
-  transition: background-color 250ms $timing-function;
+  transition: background-color $transition-duration $timing-function;
 
   &:hover,
   &:focus {
@@ -50,7 +50,7 @@
 
   fill: $svg-color;
 
-  transition: fill 250ms $timing-function;
+  transition: fill $transition-duration $timing-function;
 
   .networks__link:hover &,
   .networks__link:focus & {

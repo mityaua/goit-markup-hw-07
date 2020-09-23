@@ -67,7 +67,7 @@
 
   transform: scale(1);
 
-  transition: all 250ms $timing-function;
+  transition: all $transition-duration $timing-function;
 
   cursor: pointer;
 
