@@ -6,21 +6,12 @@
 
 // Лого в футере
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
 
   margin-bottom: 20px;
 
-  font-family: $secondaty-font;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
   color: $primary-bg-color;
-
-  &__text {
-    color: $accent-color;
-  }
 }
 
 /* Контакты в футере */

@@ -183,6 +183,18 @@ img {
   height: auto;
 }
 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo__text {
+  color: #2196f3;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -216,18 +228,9 @@ img {
           align-items: center;
 }
 
-.logo {
+.header__logo {
   margin-right: 93px;
   color: #212121;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.logo__text {
-  color: #2196f3;
 }
 
 .menu {
@@ -481,19 +484,10 @@ img {
   margin-right: 70px;
 }
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
   color: #ffffff;
-}
-
-.footer-logo__text {
-  color: #2196f3;
 }
 
 /* Контакты в футере */
