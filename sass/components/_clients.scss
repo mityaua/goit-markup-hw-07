@@ -24,9 +24,10 @@
 }
 
 .clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexbox(center, center);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   width: 170px;
   height: 90px;

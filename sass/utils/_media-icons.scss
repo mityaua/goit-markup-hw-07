@@ -1,9 +1,10 @@
 // Ссылка на иконке соиальной сети
 
 .media-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexbox(center, center);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   width: 44px;
   height: 44px;

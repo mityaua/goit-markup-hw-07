@@ -42,9 +42,10 @@
 
   color: $second-text-color;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 1.14);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
   text-transform: uppercase;
 }
 

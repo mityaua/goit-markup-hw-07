@@ -9,7 +9,8 @@
 }
 
 .footer-blocks {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  @include flexbox(space-between, baseline);
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: baseline;
 }
