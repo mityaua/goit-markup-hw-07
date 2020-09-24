@@ -164,6 +164,18 @@ body {
   line-height: 1.71;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -178,13 +190,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
 }
 
 img {
@@ -446,11 +451,6 @@ img {
   margin-bottom: 0;
 }
 
-.photos {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .photos__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,8 +491,6 @@ img {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -581,11 +579,6 @@ img {
 .social__link:hover .social__icon,
 .social__link:focus .social__icon {
   fill: #ffffff;
-}
-
-.clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .clients__list {
