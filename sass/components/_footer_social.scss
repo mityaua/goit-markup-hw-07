@@ -25,33 +25,15 @@
   margin-right: 10px;
 }
 
+// Ссылки на социальные сети сайта
+
 .networks__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-
   background-color: rgba(255, 255, 255, 0.1);
-
-  transition: background-color $transition-duration $timing-function;
-
-  &:hover,
-  &:focus {
-    background-color: $accent-color;
-  }
 }
 
+// Иконки соццальных сетей
+
 .networks__icon {
-  width: 20px;
-  height: 20px;
-
-  fill: $svg-color;
-
-  transition: fill $transition-duration $timing-function;
-
   .networks__link:hover &,
   .networks__link:focus & {
     fill: $additional-background-color;

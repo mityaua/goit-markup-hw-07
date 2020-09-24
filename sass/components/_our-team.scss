@@ -1,9 +1,6 @@
 // Секция "Наша команда"
 
 .team {
-  // padding-top: 94px;
-  // padding-bottom: 94px;
-
   background-color: $additional-background-color;
 }
 
@@ -33,7 +30,7 @@
   text-align: center;
 }
 
-// Тайтл (имя)
+// Тайтл (Имя сотрудника)
 
 .team__name {
   margin-top: 0;
@@ -56,7 +53,7 @@
   line-height: 1.18;
 }
 
-// Кнопки на социальные страницы сотрудника
+// Список социальных сетей
 
 .social {
   display: flex;
@@ -67,33 +64,11 @@
   margin-right: 10px;
 }
 
-.social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-
-  transition: background-color $transition-duration $timing-function;
-
-  &:hover,
-  &:focus {
-    background-color: $accent-color;
-  }
-}
+// Ссылки на социальные страницы сотрудника
 
 // Иконки соццальных сетей
 
 .social__icon {
-  width: 20px;
-  height: 20px;
-
-  fill: $svg-color;
-
-  transition: fill $transition-duration $timing-function;
-
   .social__link:hover &,
   .social__link:focus & {
     fill: $primary-bg-color;
