@@ -1,15 +1,19 @@
-@import "./utils/fonts";
-@import "./utils/normalize";
+@import "./base/fonts";
+@import "./base/normalize";
+
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./utils/body";
-@import "./utils/container";
-@import "./utils/section";
-@import "./utils/list";
-@import "./utils/title";
-@import "./utils/img";
-@import "./utils/btn";
-@import "./utils/visually-hidden";
+
+@import "./utils/placeholders";
+// @import "./utils/body";
+// @import "./utils/visually-hidden";
+// @import "./utils/list";
+// @import "./utils/img";
+
+@import "./components/container";
+@import "./components/section";
+@import "./components/title";
+@import "./components/btn";
 @import "./components/header";
 @import "./components/logo";
 @import "./components/header-menu";
