@@ -1,6 +1,7 @@
 // Секция "Чем мы занимаемся"
 
 .photos__list {
+  @extend %list;
   display: flex;
 }
 

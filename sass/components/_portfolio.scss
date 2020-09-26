@@ -7,6 +7,7 @@
 // Кнопки-фильтры для портфолио
 
 .filters {
+  @extend %list;
   display: flex;
   justify-content: center;
 
@@ -53,6 +54,7 @@
 // Сетка портфолио
 
 .portfolio {
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
 }

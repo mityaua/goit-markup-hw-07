@@ -9,6 +9,7 @@
 // Меню в хедере
 
 .menu {
+  @extend %list;
   display: flex;
 }
 
@@ -27,9 +28,6 @@
   color: $second-text-color;
 
   @include font(500, 14px, 1.14);
-  // font-weight: 500;
-  // font-size: 14px;
-  // line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 

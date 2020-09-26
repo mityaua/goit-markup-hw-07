@@ -18,6 +18,7 @@
 // Список социальных сетей
 
 .networks__list {
+  @extend %list;
   display: flex;
 }
 

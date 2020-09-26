@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.menu, .contacts, .features__list, .photos__list, .team__list, .social, .clients__list, .networks__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 @font-face {
   font-family: "Raleway";
   src: local("Raleway"), url("../fonts/Raleway-Bold.ttf") format("truetype");
@@ -164,6 +170,12 @@ body {
   line-height: 1.71;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -173,18 +185,6 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .container {

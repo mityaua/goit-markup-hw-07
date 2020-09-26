@@ -1,6 +1,7 @@
 // Секция "Постоянные клиенты"
 
 .clients__list {
+  @extend %list;
   display: flex;
   justify-content: center;
 }

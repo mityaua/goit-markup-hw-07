@@ -5,6 +5,7 @@
 }
 
 .team__list {
+  @extend %list;
   display: flex;
 }
 
@@ -57,6 +58,7 @@
 // Список социальных сетей
 
 .social {
+  @extend %list;
   display: flex;
   justify-content: center;
 }

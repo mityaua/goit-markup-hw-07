@@ -1,6 +1,7 @@
 // Контакты в хедере
 
 .contacts {
+  @extend %list;
   display: flex;
 
   margin-left: auto;
