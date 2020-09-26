@@ -18,7 +18,7 @@
         "../sass/components/_header-contacts.scss",
         "../sass/components/_hero.scss",
         "../sass/components/_features.scss",
-        "../sass/components/_what-we-do.scss",
+        "../sass/components/_photos.scss",
         "../sass/components/_our-team.scss",
         "../sass/components/_media-icons.scss",
         "../sass/components/_clients.scss",
