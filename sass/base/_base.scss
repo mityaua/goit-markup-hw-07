@@ -6,7 +6,7 @@ body {
   font-family: $primary-font;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.71;    
 }
 
 // Убирает лишние отступы у картинок снизу
@@ -16,17 +16,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-// Обнуляет стиль списка
-
-// .list {
-//   padding: 0;
-//   margin: 0;
-
-//   list-style: none;
-// }
-
-// Прячет элемент из дизайна (сохраняет доступность)
 
 .visually-hidden {
   position: absolute;
